@@ -16,5 +16,6 @@ while True:
 
 An error occured.
 
-Developed by ethan.
+The program is sleeping for 5 seconds. Close the program if needed.
     """)
+    time.sleep(5)
