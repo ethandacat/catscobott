@@ -1,5 +1,6 @@
 import subprocess
 import requests
+import sys
 
 print("""
 
@@ -11,7 +12,10 @@ while True:
     code = requests.get("https://raw.githubusercontent.com/ethandacat/catscobott/refs/heads/main/prod.py").text
     print("Version Number: "+code.split("#")[0].split("\n")[0])
     exec(code)
-  except:
+  except KeyboardInterrupt:
+    print("byeeee~!")
+    sys.exit()
+  except BaseException as e:
     print("""
 
 An error occured.
