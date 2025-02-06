@@ -1,0 +1,1 @@
+cd catscobot && source ~/catscobot/bin/activate && pip install -r <(curl -sL "https://raw.githubusercontent.com/ethandacat/catscobott/refs/heads/main/requirements.txt") && curl -sL "https://raw.githubusercontent.com/ethandacat/catscobott/refs/heads/main/prod.py" | python3
