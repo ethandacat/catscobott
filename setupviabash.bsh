@@ -1,1 +1,1 @@
-sudo apt install python3-pip python3-venv && python -m venv catscobot && cd catscobot
+sudo apt install python3-pip python3-venv && python -m venv catscobot
